@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #201b2c;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  margin: 200px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  flex-direction: column;
+}
+
+.container .title {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 0;
+  color: #fff;
+  font-size: 2em;
+}
+
+.container .container-second {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container .container-second .board {
+  width: 100%;
+  resize: none;
+}
+
+span {
+  color: #fff;
+  margin-top: 20px;
+}
